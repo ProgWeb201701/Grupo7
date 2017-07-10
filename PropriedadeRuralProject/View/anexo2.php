@@ -95,8 +95,49 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.<br
                     <td><form action="">
                     <input type="checkbox" name="option" value="Rastreabilidade">Rastreabilidade
                     <input type="checkbox" name="option" value=" Produção de touros"> Produção de touros <br>
-                    <input type="checkbox" name="option" value="Padrão racial">Padrão racial <br
-                    <input type="checkbox" name="option" value="Outros">Outros. Quais? <input type="text" name="Nome" size="10" /></td>
+                    <input type="checkbox" name="option" value="Padrão racial">Padrão racial <br>
+                    
+                    <script type="text/javascript">
+function id( el ){
+        return document.getElementById( el );
+}
+function mostra( el ){
+        id( el ).style.display = 'block';
+}
+function esconde_todos( el, tagName ){
+        var tags = el.getElementsByTagName( tagName );
+        for( var i=0; i<tags.length; i++ )
+        {
+                tags[i].style.display = 'none';
+        }
+}
+window.onload = function()
+{
+        id('outro').style.display = 'none';
+
+        id('rd-time').onchange = function()
+        {
+                esconde_todos( id('palco'), 'div' );
+                mostra( this.value );
+        }
+        var radios = document.getElementsByTagName('input');
+        for( var i=0; i<radios.length; i++ ){
+                if( radios[i].type=='radio' )
+                {
+                        radios[i].onclick = function(){
+                                esconde_todos( id('palco'), 'div' );
+                                mostra( this.value );
+                        }
+                }
+        }
+}
+</script>
+
+<input type = "radio" name = "time" id = "rd-time" value = "outro" style="margin-top:15px;" /> Outros. Quais?
+      </span>
+      <div id = "palco">
+      <div id = "outro"><input type = "text" name = "time" id = "outro"/></div>
+      </div>
                     </form></td>
                 </tr>
 
