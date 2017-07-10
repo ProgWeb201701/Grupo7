@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Avaliação de Propriedade Rural</title>
     <meta charset="UTF-8">
@@ -90,11 +89,11 @@
 
         <label><b>SENHA</b></label>
         <input type="password" placeholder="Entre com a senha" name="senha" required>
-
         <button type="submit">Entrar</button>
     </div>
     </form>
-</div>
+
+   </div>
 </body>
 </html>
 

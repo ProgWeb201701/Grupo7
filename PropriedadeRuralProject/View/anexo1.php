@@ -92,7 +92,7 @@
 <h2 class="w3-wide w3-row w3-center">ANEXO 1<br>ÍNDICE DE COMPETITIVIDADE “DENTRO DA PORTEIRA”<br>CARACTERIZAÇÃO DO SISTEMA DE PRODUÇÃO<br><br><br></h2>
 
 <!--------------------------------------- INICIO FORMULÁRIO --------------------------------------->
-<form action="mostra.php" method="post">
+<form action="anexo2.php" method="post">
 
 <!--COMEÇO TABELA 1 -->
 <div class="w3-container w3-content w3-center w3-padding-64" >
@@ -103,7 +103,7 @@
                 <label class="w3-left">Nome da Propriedade Rural:</label>
             </div>
             <div class="w3-rest">
-                <input class="w3-input w3-border" type="text" name='nome' placeholder="Nome da propriedade" value="">
+                <input class="w3-input w3-border" type="text" name='nome' placeholder="Nome da propriedade" value="" required>
             </div>
         </div>
         <div class="w3-row w3-section">
@@ -111,7 +111,7 @@
                 <label class="w3-left">Telefone:</label>
             </div>
             <div class="w3-rest">
-                <input class="w3-input w3-border" type="text" name='telefone' placeholder="Telefone" value="">
+                <input class="w3-input w3-border" type="text" name='telefone' placeholder="Telefone" value="" required>
             </div>
         </div>
         <div class="w3-row w3-section">
@@ -119,7 +119,7 @@
                 <label class="w3-left">Celular:</label>
             </div>
             <div class="w3-rest">
-                <input class="w3-input w3-border" type="text" name='celular' placeholder="Celular" value="">
+                <input class="w3-input w3-border" type="text" name='celular' placeholder="Celular" value="" required>
             </div>
         </div>
         <div class="w3-row w3-section">
@@ -135,7 +135,7 @@
                 <label class="w3-left">Endereço da Propriedade:</label>
             </div>
             <div class="w3-rest">
-                <input class="w3-input w3-border" type="text" name='endereco' placeholder="Endereço" value="">
+                <input class="w3-input w3-border" type="text" name='endereco' placeholder="Endereço" value="" required>
             </div>
         </div>
         <div class="w3-row w3-section">
@@ -151,7 +151,7 @@
                 <label class="w3-left">Município:</label>
             </div>
             <div class="w3-rest">
-                <input class="w3-input w3-border" type="text" name='municipio' placeholder="Municipio" value="">
+                <input class="w3-input w3-border" type="text" name='municipio' placeholder="Municipio" value="" required>
             </div>
         </div>
     </div>

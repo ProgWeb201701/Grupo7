@@ -19,7 +19,6 @@
     <link href="../w3.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="script.js"></script>
-
     <style>
         table, th, td {
             border: 1px solid;
@@ -113,10 +112,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.1.1. </td>
     <td> Existe um sistema de produção de cria claramente definido?</td>
     <td>
-        <input type="radio" name="r111" value="SIM">
+        <input type="radio" name="r111" value="SIM" required >
     </td>
     <td>
-        <input type="radio" name="r111" value="NAO">
+        <input type="radio" name="r111" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs111' value="">
@@ -126,9 +125,9 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.1.2. </td>
     <td>Existe algum grau de diferenciação/especialização no sistema em questão?</td>
     <td>
-        <input type="radio" name="r112" value="SIM"></td>
+        <input type="radio" name="r112" value="SIM" required></td>
     <td>
-        <input type="radio" name="r112" value="NAO"></td>
+        <input type="radio" name="r112" value="NAO" required></td>
     <td>
         <input type="radio" name="obs112" value="Rastreabilidade">Rastreabilidade
         <input type="radio" name="obs112" value="Produção de touros">Produção de touros
@@ -146,9 +145,9 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         Há uma escala adequada (número de animais em relação ao tamanho da propriedade)?
     </td>
     <td>
-        <input type="radio" name="r113" value="SIM"></td>
+        <input type="radio" name="r113" value="SIM" required></td>
     <td>
-        <input type="radio" name="r113" value="NAO"></td>
+        <input type="radio" name="r113" value="NAO" required></td>
     <td>
         <div> Qual?<input class="w3-input w3-border" type="text" name='obs113_txt' value="">
             *A equipe calcula.
@@ -171,10 +170,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.2.1.</td>
     <td>Adota alguma prática para o melhoramento do campo nativo?</td>
     <td>
-        <input type="radio" name="r12" value="SIM">
+        <input type="radio" name="r121" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r12" value="NAO">
+        <input type="radio" name="r121" value="NAO" required>
     </td>
     <td>
         <div> Qual?<input class="w3-input w3-border" type="text" name='obs12_txt' id="obs3" value="">
@@ -185,10 +184,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.2.2.  </td>
     <td>São cultivadas pastagens?</td>
     <td>
-        <input type="radio" name="r122" value="SIM">
+        <input type="radio" name="r122" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r122" value="NAO">
+        <input type="radio" name="r122" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs122" value="Inverno">Inverno
@@ -200,10 +199,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.2.3. </td>
     <td>Conhece a porcentagem de campo nativo e a percentagem de pastagens cultivadas da propriedade?</td>
     <td>
-        <input type="radio" name="r123" value="SIM">
+        <input type="radio" name="r123" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r123" value="NAO">
+        <input type="radio" name="r123" value="NAO" required>
     </td>
     <td>
         <div>
@@ -215,10 +214,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.2.4.</td>
     <td>Existe associação entre gramíneas e/ou leguminosas?</td>
     <td>
-        <input type="radio" name="r124" value="SIM">
+        <input type="radio" name="r124" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r124" value="NAO">
+        <input type="radio" name="r124" value="NAO" required>
     </td>
     <td>
         <div>
@@ -230,10 +229,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.2.5.</td>
     <td>São utilizadas técnicas de manejo de pastagens?</td>
     <td>
-        <input type="radio" name="r125" value="SIM">
+        <input type="radio" name="r125" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r125" value="NAO">
+        <input type="radio" name="r125" value="NAO" required>
     </td>
     <td>
         <div>
@@ -246,10 +245,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.2.6.</td>
     <td>Existe algum grau de degradação nas pastagens (invasoras, clarões no pasto, erosão, não desejáveis, outras)?</td>
     <td>
-        <input type="radio" name="r126" value="SIM">
+        <input type="radio" name="r126" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r126" value="NAO">
+        <input type="radio" name="r126" value="NAO" required>
     </td>
     <td>*A equipe deve observar o grau de degradação.
         <div>
@@ -261,10 +260,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.2.7.</td>
     <td>No caso da existência de invasoras, há um manejo adequado para o controle das mesmas?</td>
     <td>
-        <input type="radio" name="r127" value="SIM">
+        <input type="radio" name="r127" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r127" value="NAO">
+        <input type="radio" name="r127" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs127" value="Químico">Químico
@@ -278,10 +277,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.2.8.</td>
     <td>São feitas análises periodicas do solo?</td>
     <td>
-        <input type="radio" name="r128" value="SIM">
+        <input type="radio" name="r128" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r128" value="NAO">
+        <input type="radio" name="r128" value="NAO" required>
     </td>
     <td>
         <div>
@@ -294,10 +293,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.2.9.</td>
     <td> Utiliza adubação de base (calagem e NPK)?</td>
     <td>
-        <input type="radio" name="r129" value="SIM">
+        <input type="radio" name="r129" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r129" value="NAO">
+        <input type="radio" name="r129" value="NAO" required>
     </td>
     <td>
         <div>
@@ -309,10 +308,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.2.10.</td>
     <td> Utiliza adubação de cobertura (uréia/ NPK/ MAP, DAP)?</td>
     <td>
-        <input type="radio" name="r1210" value="SIM">
+        <input type="radio" name="r1210" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1210" value="NAO">
+        <input type="radio" name="r1210" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs1210_txt' value="">
@@ -322,10 +321,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.2.11</td>
     <td>Existe algum sistema de irrigação para as pastagens?</td>
     <td>
-        <input type="radio" name="r1211" value="SIM">
+        <input type="radio" name="r1211" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1211" value="NAO">
+        <input type="radio" name="r1211" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs1211" value="Pivot">Pivot
@@ -350,10 +349,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.3.1.</td>
     <td> Utiliza suplementação com sal branco?</td>
     <td>
-        <input type="radio" name="r131" value="SIM">
+        <input type="radio" name="r131" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r131" value="NAO">
+        <input type="radio" name="r131" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs131_txt' value="">
@@ -363,10 +362,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.3.2.  </td>
     <td>Utiliza suplementação com mistura mineral completa?</td>
     <td>
-        <input type="radio" name="r132" value="SIM">
+        <input type="radio" name="r132" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r132" value="NAO">
+        <input type="radio" name="r132" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs132_txt' value="">
@@ -377,10 +376,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.3.3. </td>
     <td>  Utiliza suplementação com alimento volumoso?</td>
     <td>
-        <input type="radio" name="r133" value="SIM">
+        <input type="radio" name="r133" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r133" value="NAO">
+        <input type="radio" name="r133" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs133" value="Feno">Feno
@@ -397,10 +396,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.3.4.</td>
     <td> Utiliza suplementação para categorias específicas?</td>
     <td>
-        <input type="radio" name="r134" value="SIM">
+        <input type="radio" name="r134" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r134" value="NAO">
+        <input type="radio" name="r134" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs134" value="Creep-feeding">Creep-feeding
@@ -417,10 +416,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.3.5.  </td>
     <td>Utiliza suplementação proteica em épocas estratégicas?</td>
     <td>
-        <input type="radio" name="r135" value="SIM">
+        <input type="radio" name="r135" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r135" value="NAO">
+        <input type="radio" name="r135" value="NAO" required>
     </td>
     <td>
         <div>
@@ -433,10 +432,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.3.6. </td>
     <td>Utiliza suplementação proteica em épocas estratégicas?</td>
     <td>
-        <input type="radio" name="r136" value="SIM">
+        <input type="radio" name="r136" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r136" value="NAO">
+        <input type="radio" name="r136" value="NAO" required>
     </td>
     <td>
         <div>
@@ -448,9 +447,9 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.3.7.</td>
     <td>Utiliza suplementação energética em épocas estratégicas?</td>
     <td>
-        <input type="radio" name="r137" value="SIM"></td>
+        <input type="radio" name="r137" value="SIM" required></td>
     <td>
-        <input type="radio" name="r137" value="NAO"></td>
+        <input type="radio" name="r137" value="NAO" required></td>
     <td>
         <div>
             Qual?<input class="w3-input w3-border" type="text" name='obs137_txt' value="">
@@ -461,10 +460,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.3.8.  </td>
     <td>Todos os cochos são cobertos?</td>
     <td>
-        <input type="radio" name="r138" value="SIM">
+        <input type="radio" name="r138" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r138" value="NAO">
+        <input type="radio" name="r138" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs138" value="Maioria">Maioria
@@ -491,10 +490,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.4.1.</td>
     <td> A propriedade trabalha com integração lavoura- pecuária?</td>
     <td>
-        <input type="radio" name="r141" value="SIM">
+        <input type="radio" name="r141" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r141" value="NAO">
+        <input type="radio" name="r141" value="NAO" required>
     </td>
     <td>
         <div>
@@ -506,10 +505,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.4.2.  </td>
     <td>A exploração agrícola é feita pelo produtor/ pecuarista?</td>
     <td>
-        <input type="radio" name="r142" value="SIM">
+        <input type="radio" name="r142" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r142" value="NAO">
+        <input type="radio" name="r142" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs142_txt' value="">
@@ -520,10 +519,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.4.3. </td>
     <td>  Os recursos e maquinários utilizados na agricultura são utilizados na pecuária?</td>
     <td>
-        <input type="radio" name="r143" value="SIM">
+        <input type="radio" name="r143" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r143" value="NAO">
+        <input type="radio" name="r143" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs143_txt' value="">
@@ -533,10 +532,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.4.4.</td>
     <td> Os funcionários da lavoura atuam na pecuária?</td>
     <td>
-        <input type="radio" name="r144" value="SIM">
+        <input type="radio" name="r144" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r144" value="NAO">
+        <input type="radio" name="r144" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs144_txt' value="">
@@ -559,10 +558,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.5.1.</td>
     <td> É utilizada subdivisão nos potreiros/ invernada?</td>
     <td>
-        <input type="radio" name="r151" value="SIM">
+        <input type="radio" name="r151" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r151" value="NAO">
+        <input type="radio" name="r151" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs151_txt' value="">
@@ -572,10 +571,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.5.2.  </td>
     <td>É utilizada cerca elétrica para subdividir os potreiros/ invernada?</td>
     <td>
-        <input type="radio" name="r152" value="SIM">
+        <input type="radio" name="r152" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r152" value="NAO">
+        <input type="radio" name="r152" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs152_txt' value="">
@@ -586,10 +585,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.5.3. </td>
     <td>Utiliza outra técnica para subdividir os potreiros/ invernada?</td>
     <td>
-        <input type="radio" name="r153" value="SIM">
+        <input type="radio" name="r153" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r153" value="NAO">
+        <input type="radio" name="r153" value="NAO" required>
     </td>
     <td>
         <div>
@@ -601,10 +600,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.5.4.</td>
     <td>Possui um mapa ilustrando o número de potreiros/ invernada da propriedade?</td>
     <td>
-        <input type="radio" name="r154" value="SIM">
+        <input type="radio" name="r154" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r154" value="NAO">
+        <input type="radio" name="r154" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs154_txt' value="">
@@ -627,10 +626,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.1.</td>
     <td>Há uma estação de monta, parição e desmame previamente definida?</td>
     <td>
-        <input type="radio" name="r161" value="SIM">
+        <input type="radio" name="r161" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r161" value="NAO">
+        <input type="radio" name="r161" value="NAO" required>
     </td>
     <td>
         <div>
@@ -642,10 +641,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.2.</td>
     <td>A estação de acasalamento das novilhas é mais curta que a das vacas?</td>
     <td>
-        <input type="radio" name="r162" value="SIM">
+        <input type="radio" name="r162" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r162" value="NAO">
+        <input type="radio" name="r162" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs162_txt' value="">
@@ -656,10 +655,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.3. </td>
     <td>É utilizada alguma técnica de desmame antecipado?</td>
     <td>
-        <input type="radio" name="r163" value="SIM">
+        <input type="radio" name="r163" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r163" value="NAO">
+        <input type="radio" name="r163" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs163" value="Precoce">Precoce
@@ -674,9 +673,9 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.4.</td>
     <td>Utiliza inseminação artificial (IA)?</td>
     <td>
-        <input type="radio" name="r164" value="SIM"></td>
+        <input type="radio" name="r164" value="SIM" required></td>
     <td>
-        <input type="radio" name="r164" value="NAO"></td>
+        <input type="radio" name="r164" value="NAO" required></td>
     <td>
         <div>
             Quais categorias?<input class="w3-input w3-border" type="text" name='obs164_txt' value="">
@@ -687,10 +686,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.5.</td>
     <td>Utiliza inseminação artificial com sincronização de cios?</td>
     <td>
-        <input type="radio" name="r165" value="SIM">
+        <input type="radio" name="r165" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r165" value="NAO">
+        <input type="radio" name="r165" value="NAO" required>
     </td>
     <td>
         <div>
@@ -702,10 +701,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.6.</td>
     <td>Utiliza inseminação artificial em tempo fixo (IATF)?</td>
     <td>
-        <input type="radio" name="r166" value="SIM">
+        <input type="radio" name="r166" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r166" value="NAO">
+        <input type="radio" name="r166" value="NAO" required>
     </td>
     <td>
         <div>
@@ -717,10 +716,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.7.</td>
     <td>Utiliza outra biotécnica reprodutiva?</td>
     <td>
-        <input type="radio" name="r167" value="SIM">
+        <input type="radio" name="r167" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r167" value="NAO">
+        <input type="radio" name="r167" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs167" value="Transferência de embriões">Transferência de embriões
@@ -735,10 +734,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.8.</td>
     <td>A relação touro/ vaca é adequada?</td>
     <td>
-        <input type="radio" name="r168" value="SIM">
+        <input type="radio" name="r168" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r168" value="NAO">
+        <input type="radio" name="r168" value="NAO" required>
     </td>
     <td>
         <div> Quais categorias?<input class="w3-input w3-border" type="text" name='obs168_txt' value="">
@@ -750,10 +749,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.9.</td>
     <td>A categoria de vaca primíparas, vazias no toque, são sempre descartadas?</td>
     <td>
-        <input type="radio" name="r169" value="SIM">
+        <input type="radio" name="r169" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r169" value="NAO">
+        <input type="radio" name="r169" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs169_txt' value="">
@@ -763,10 +762,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.10.</td>
     <td>A categoria de vaca multíparas, vazias no toque, são sempre descartadas?</td>
     <td>
-        <input type="radio" name="r1610" value="SIM">
+        <input type="radio" name="r1610" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1610" value="NAO">
+        <input type="radio" name="r1610" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs1610_txt' value="">
@@ -776,10 +775,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.11.</td>
     <td>É feito rodízio de touros dentro da estação de monta?</td>
     <td>
-        <input type="radio" name="r1611" value="SIM">
+        <input type="radio" name="r1611" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1611" value="NAO">
+        <input type="radio" name="r1611" value="NAO" required>
     </td>
     <td>*Plantel
         <input class="w3-input w3-border" type="text" name='obs1611_txt' value="">
@@ -789,10 +788,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.12. </td>
     <td>Os touros são separados por lotes?</td>
     <td>
-        <input type="radio" name="r1612" value="SIM">
+        <input type="radio" name="r1612" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1612" value="NAO">
+        <input type="radio" name="r1612" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs1612" value="Idade">Idade
@@ -806,10 +805,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.13.</td>
     <td>É feito o exame andrológico nos touros anualmente?</td>
     <td>
-        <input type="radio" name="r1613" value="SIM">
+        <input type="radio" name="r1613" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1613" value="NAO">
+        <input type="radio" name="r1613" value="NAO" required>
     </td>
     <td>
         <div>
@@ -821,10 +820,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.14.</td>
     <td>Existe um peso mínimo alvo para o primeiro acasalamento das novilhas?</td>
     <td>
-        <input type="radio" name="r1614" value="SIM">
+        <input type="radio" name="r1614" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1614" value="NAO">
+        <input type="radio" name="r1614" value="NAO" required>
     </td>
     <td>
         <div>
@@ -836,10 +835,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.6.15.</td>
     <td>Utiliza o ECC como uma ferramenta de manejo em épocas estratégicas?</td>
     <td>
-        <input type="radio" name="r1615" value="SIM">
+        <input type="radio" name="r1615" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1615" value="NAO">
+        <input type="radio" name="r1615" value="NAO" required>
     </td>
     <td>
         <div>
@@ -864,10 +863,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.7.1.</td>
     <td>O rebanho apresenta um padrão racial adequado ao ambiente?</td>
     <td>
-        <input type="radio" name="r171" value="SIM">
+        <input type="radio" name="r171" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r171" value="NAO">
+        <input type="radio" name="r171" value="NAO" required>
     </td>
     <td>*A equipe deve observar.
         <input class="w3-input w3-border" type="text" name='obs171_txt' value="">
@@ -877,10 +876,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.7.2.</td>
     <td>Utiliza ferramentas de melhoramento genético animal para a seleção dos seus animais?</td>
     <td>
-        <input type="radio" name="r172" value="SIM">
+        <input type="radio" name="r172" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r172" value="NAO">
+        <input type="radio" name="r172" value="NAO" required>
     </td>
     <td>
         Qual?<br/>
@@ -899,10 +898,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.7.3.</td>
     <td>Os touros são provenientes/ adquiridos de outras propriedades que utilizam programas de melhoramento genético?</td>
     <td>
-        <input type="radio" name="r173" value="SIM">
+        <input type="radio" name="r173" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r173" value="NAO">
+        <input type="radio" name="r173" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs173_txt' value="">
@@ -926,10 +925,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.8.1.</td>
     <td>Existe um calendário sanitário pré definido de acordo com o ambiente da propriedade?</td>
     <td>
-        <input type="radio" name="r181" value="SIM">
+        <input type="radio" name="r181" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r181" value="NAO">
+        <input type="radio" name="r181" value="NAO" required>
     </td>
     <td>*Verificar o plano.
         <input class="w3-input w3-border" type="text" name='obs181_txt' value="">
@@ -939,10 +938,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.8.2.</td>
     <td>O calendário sanitário é acessível a todos os colaboradores?</td>
     <td>
-        <input type="radio" name="r182" value="SIM">
+        <input type="radio" name="r182" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r182" value="NAO">
+        <input type="radio" name="r182" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs182_txt' value="">
@@ -953,10 +952,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.8.3</td>
     <td>São aplicadas as vacinas contra as principais doenças endêmicas?</td>
     <td>
-        <input type="radio" name="r183" value="SIM">
+        <input type="radio" name="r183" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r183" value="NAO">
+        <input type="radio" name="r183" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs183" value="Clostridiose">Clostridiose
@@ -973,10 +972,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.8.4.</td>
     <td>Utiliza inseminação artificial (IA)?</td>
     <td>
-        <input type="radio" name="r184" value="SIM">
+        <input type="radio" name="r184" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r184" value="NAO">
+        <input type="radio" name="r184" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs184" value="IBR">IBR
@@ -993,10 +992,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.8.5.</td>
     <td>Utiliza inseminação artificial com sincronização de cios?</td>
     <td>
-        <input type="radio" name="r185" value="SIM">
+        <input type="radio" name="r185" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r185" value="NAO">
+        <input type="radio" name="r185" value="NAO" required>
     </td>
     <td>*Verificar o calendário.
         <input class="w3-input w3-border" type="text" name='obs185_txt' value="">
@@ -1006,10 +1005,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.8.6.</td>
     <td>Utiliza inseminação artificial em tempo fixo (IATF)?</td>
     <td>
-        <input type="radio" name="r186" value="SIM">
+        <input type="radio" name="r186" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r186" value="NAO">
+        <input type="radio" name="r186" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs186_txt' value="">
@@ -1019,10 +1018,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.8.7. </td>
     <td>Utiliza outra biotécnica reprodutiva?</td>
     <td>
-        <input type="radio" name="r187" value="SIM">
+        <input type="radio" name="r187" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r187" value="NAO">
+        <input type="radio" name="r187" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs187" value="Injetável">Injetável
@@ -1037,10 +1036,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.8.8.</td>
     <td>A relação touro/ vaca é adequada?</td>
     <td>
-        <input type="radio" name="r188" value="SIM">
+        <input type="radio" name="r188" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r188" value="NAO">
+        <input type="radio" name="r188" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs188" value="Sorologia">Sorologia
@@ -1067,10 +1066,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.9.1.</td>
     <td>A propriedade possui um profissional efetivo no seu quadro funcional?</td>
     <td>
-        <input type="radio" name="r191" value="SIM">
+        <input type="radio" name="r191" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r191" value="NAO">
+        <input type="radio" name="r191" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs191" value="Veterinário">Veterinário
@@ -1086,10 +1085,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.9.2.  </td>
     <td>Utiliza assessoria técnica periodicamente na propriedade?</td>
     <td>
-        <input type="radio" name="r192" value="SIM">
+        <input type="radio" name="r192" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r192" value="NAO">
+        <input type="radio" name="r192" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs192" value="EMATER">EMATER
@@ -1106,10 +1105,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.9.3. </td>
     <td>Existe prestação de serviço pré-definido/ pontuais?</td>
     <td>
-        <input type="radio" name="r193" value="SIM">
+        <input type="radio" name="r193" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r193" value="NAO">
+        <input type="radio" name="r193" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs193" value="Toque">Toque
@@ -1141,10 +1140,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.10.1.</td>
     <td>Os animais são manejados com intervalo regular nas mangueiras?</td>
     <td>
-        <input type="radio" name="r1101" value="SIM">
+        <input type="radio" name="r1101" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1101" value="NAO">
+        <input type="radio" name="r1101" value="NAO" required>
     </td>
     <td>
         <div>
@@ -1156,10 +1155,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.10.2.</td>
     <td>Os animais são agrupados a campo regularmente (parar rodeio)?</td>
     <td>
-        <input type="radio" name="r1102" value="SIM">
+        <input type="radio" name="r1102" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1102" value="NAO">
+        <input type="radio" name="r1102" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs1102_txt' value="">
@@ -1170,10 +1169,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.10.3.</td>
     <td>Os animais são manejados nas mangueiras por categoria?</td>
     <td>
-        <input type="radio" name="r1103" value="SIM">
+        <input type="radio" name="r1103" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1103" value="NAO">
+        <input type="radio" name="r1103" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs1103_txt' value="">
@@ -1183,10 +1182,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.10.4.</td>
     <td>Utiliza tronco de contenção inovador, adequado as boas práticas de manejo?</td>
     <td>
-        <input type="radio" name="r1104" value="SIM">
+        <input type="radio" name="r1104" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1104" value="NAO">
+        <input type="radio" name="r1104" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs1104_txt' value="">
@@ -1196,10 +1195,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.10.5.</td>
     <td>Utiliza cães no manejo com bovinos?</td>
     <td>
-        <input type="radio" name="r1105" value="SIM">
+        <input type="radio" name="r1105" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1105" value="NAO">
+        <input type="radio" name="r1105" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs1105_txt' value="">
@@ -1209,10 +1208,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.10.6.</td>
     <td>Utiliza objetos perfuro cortantes/ ponte agudos para tocar os animais?</td>
     <td>
-        <input type="radio" name="r1106" value="SIM">
+        <input type="radio" name="r1106" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1106" value="NAO">
+        <input type="radio" name="r1106" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs1106_txt' value="">
@@ -1222,10 +1221,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.10.7. </td>
     <td>Utiliza bandeirolas ou outros métodos para movimentar os animais?</td>
     <td>
-        <input type="radio" name="r1107" value="SIM">
+        <input type="radio" name="r1107" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1107" value=NAO"">
+        <input type="radio" name="r1107" value=NAO>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs1107_txt' value="">
@@ -1235,10 +1234,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.10.8.</td>
     <td>As instalações são adequadas para manejar os animais?</td>
     <td>
-        <input type="radio" name="r1108" value="SIM">
+        <input type="radio" name="r1108" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1108" value="NAO">
+        <input type="radio" name="r1108" value="NAO" required>
     </td>
     <td>*A equipe deve observar.
         <input class="w3-input w3-border" type="text" name='obs1108_txt' value="">
@@ -1248,10 +1247,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>1.10.9.</td>
     <td>Seus funcionários trabalham a pé na mangueira?</td>
     <td>
-        <input type="radio" name="r1109" value="SIM">
+        <input type="radio" name="r1109" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r1109" value="NAO">
+        <input type="radio" name="r1109" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs1109_txt' value="">
@@ -1280,10 +1279,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.1.1</td>
     <td>Os colaboradores possuem vínculo empregatício?</td>
     <td>
-        <input type="radio" name="r211" value="SIM">
+        <input type="radio" name="r211" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r211" value="NAO">
+        <input type="radio" name="r211" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs211_txt' value="">
@@ -1293,10 +1292,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.1.2.</td>
     <td>Existe uma hierarquia funcional definida (cargos de acordo com o perfil de cada um)?</td>
     <td>
-        <input type="radio" name="r212" value="SIM">
+        <input type="radio" name="r212" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r212" value="NAO">
+        <input type="radio" name="r212" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs212" value="Perfil">Perfil
@@ -1314,10 +1313,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.1.3.</td>
     <td>Existe um plano de valorização da carreira?</td>
     <td>
-        <input type="radio" name="r213" value="SIM">
+        <input type="radio" name="r213" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r213" value="NAO">
+        <input type="radio" name="r213" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs213" value="PL">PL
@@ -1332,10 +1331,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.1.4.</td>
     <td>A maioria de seus colaboradores permanece mais de 2 anos na propriedade?</td>
     <td>
-        <input type="radio" name="r214" value="SIM">
+        <input type="radio" name="r214" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r214" value="NAO">
+        <input type="radio" name="r214" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs214_txt' value="">
@@ -1345,10 +1344,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.1.5.</td>
     <td>100% dos seus colaboradores são alfabetizados?</td>
     <td>
-        <input type="radio" name="r215" value="SIM">
+        <input type="radio" name="r215" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r215" value="NAO">
+        <input type="radio" name="r215" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs215_txt' value="">
@@ -1358,10 +1357,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.1.6.</td>
     <td>Existe um projeto/ ação concreta de bem estar social dos colaboradores?</td>
     <td>
-        <input type="radio" name="r216" value="SIM">
+        <input type="radio" name="r216" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r216" value="NAO">
+        <input type="radio" name="r216" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs216" value="Escola">Escola
@@ -1380,10 +1379,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.1.7. </td>
     <td>Os colaboradores fazem cursos periodicamente?</td>
     <td>
-        <input type="radio" name="r217" value="SIM">
+        <input type="radio" name="r217" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r217" value="NAO">
+        <input type="radio" name="r217" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs217_txt' value="">
@@ -1393,10 +1392,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.1.8.</td>
     <td>Os colaboradores são treinados para utilizar o manejo racional com os animais?</td>
     <td>
-        <input type="radio" name="r218" value="SIM">
+        <input type="radio" name="r218" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r218" value="NAO">
+        <input type="radio" name="r218" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs218_txt' value="">
@@ -1406,10 +1405,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.1.9.</td>
     <td>A relação número de funcionários/ número de animais do sistema é adequada?</td>
     <td>
-        <input type="radio" name="r219" value="SIM">
+        <input type="radio" name="r219" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r219" value="NAO">
+        <input type="radio" name="r219" value="NAO" required>
     </td>
     <td>*A equipe calcula.
         <input class="w3-input w3-border" type="text" name='obs219_txt' value="">
@@ -1432,10 +1431,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.2.1.</td>
     <td>Há um controle de estoque dos animais?</td>
     <td>
-        <input type="radio" name="r221" value="SIM">
+        <input type="radio" name="r221" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r221" value="NAO">
+        <input type="radio" name="r221" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs221" value="Mensal">Mensal
@@ -1452,10 +1451,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.2.2.</td>
     <td>Há um controle patrimonial de máquinas e implementos?</td>
     <td>
-        <input type="radio" name="r222" value="SIM">
+        <input type="radio" name="r222" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r222" value="NAO">
+        <input type="radio" name="r222" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs222_txt' value="">
@@ -1466,10 +1465,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.2.3. </td>
     <td>Há um controle de estocagem de insumos e implementos?</td>
     <td>
-        <input type="radio" name="r223" value="SIM">
+        <input type="radio" name="r223" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r223" value="NAO">
+        <input type="radio" name="r223" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs223_txt' value="">
@@ -1479,10 +1478,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.2.4.</td>
     <td>A empresa realiza o balanço patrimonial anual?</td>
     <td>
-        <input type="radio" name="r224" value="SIM">
+        <input type="radio" name="r224" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r224" value="NAO">
+        <input type="radio" name="r224" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs224_txt' value="">
@@ -1505,10 +1504,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.3.1.</td>
     <td>São mensuradas as receitas da propriedade?</td>
     <td>
-        <input type="radio" name="r231" value="SIM">
+        <input type="radio" name="r231" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r231" value="NAO">
+        <input type="radio" name="r231" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs231_txt' value="">
@@ -1518,10 +1517,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.3.2.  </td>
     <td>São mensuradas as despesas da propriedade (valor desembolsado)?</td>
     <td>
-        <input type="radio" name="r232" value="SIM">
+        <input type="radio" name="r232" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r232" value="NAO">
+        <input type="radio" name="r232" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs232_txt' value="">
@@ -1532,10 +1531,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.3.3. </td>
     <td>Utiliza orçamentações para investimentos futuros?</td>
     <td>
-        <input type="radio" name="r233" value="SIM">
+        <input type="radio" name="r233" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r233" value="NAO">
+        <input type="radio" name="r233" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs233_txt' value="">
@@ -1545,10 +1544,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.3.4.</td>
     <td>Existe um fluxo de caixa em uso na propriedade (orçado e realizado)?</td>
     <td>
-        <input type="radio" name="r234" value="SIM">
+        <input type="radio" name="r234" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r234" value="NAO">
+        <input type="radio" name="r234" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs234_txt' value="">
@@ -1571,10 +1570,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.4.1.</td>
     <td>A empresa possui um planejamento estratégico ou plano de negócios?</td>
     <td>
-        <input type="radio" name="r241" value="SIM">
+        <input type="radio" name="r241" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r241" value="NAO">
+        <input type="radio" name="r241" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs241_txt' value="">
@@ -1584,10 +1583,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.4.2.  </td>
     <td>O planejamento estratégico é utilizado como uma ferramenta na tomada de decisão?</td>
     <td>
-        <input type="radio" name="r242" value="SIM">
+        <input type="radio" name="r242" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r242" value="NAO">
+        <input type="radio" name="r242" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs242_txt' value="">
@@ -1609,10 +1608,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.5.1.</td>
     <td>A propriedade mensura seus custos totais (fixos + variáveis)?</td>
     <td>
-        <input type="radio" name="r251" value="SIM">
+        <input type="radio" name="r251" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r251" value="NAO">
+        <input type="radio" name="r251" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs251_txt' value="">
@@ -1622,10 +1621,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.5.2.  </td>
     <td>Existe um plano de contas previamente definido?</td>
     <td>
-        <input type="radio" name="r252" value="SIM">
+        <input type="radio" name="r252" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r252" value="NAO">
+        <input type="radio" name="r252" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs252_txt' value="">
@@ -1636,10 +1635,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.5.3. </td>
     <td>Existe um controle por centro de custos?</td>
     <td>
-        <input type="radio" name="r253" value="SIM">
+        <input type="radio" name="r253" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r253" value="NAO">
+        <input type="radio" name="r253" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs253_txt' value="">
@@ -1649,10 +1648,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.5.4.</td>
     <td>Conhece o custo unitário do produto final (bezerro)?</td>
     <td>
-        <input type="radio" name="r254" value="SIM">
+        <input type="radio" name="r254" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r254" value="NAO">
+        <input type="radio" name="r254" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs254_txt' value="">
@@ -1662,10 +1661,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.5.5.  </td>
     <td>A depreciação dos bens é calculada?</td>
     <td>
-        <input type="radio" name="r255" value="SIM">
+        <input type="radio" name="r255" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r255" value="NAO">
+        <input type="radio" name="r255" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs255_txt' value="">
@@ -1676,10 +1675,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.5.6. </td>
     <td>O custo de oportunidade da terra é calculado?</td>
     <td>
-        <input type="radio" name="r256" value="SIM">
+        <input type="radio" name="r256" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r256" value="NAO">
+        <input type="radio" name="r256" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs256_txt' value="">
@@ -1689,10 +1688,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.5.7.</td>
     <td>O custo de oportunidade do capital é calculado?</td>
     <td>
-        <input type="radio" name="r257" value="SIM">
+        <input type="radio" name="r257" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r257" value="NAO">
+        <input type="radio" name="r257" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs257_txt' value="">
@@ -1714,10 +1713,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.6.1.</td>
     <td>Calcula a margem bruta da sua atividade?</td>
     <td>
-        <input type="radio" name="r261" value="SIM">
+        <input type="radio" name="r261" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r261" value="NAO">
+        <input type="radio" name="r261" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs261_txt' value="">
@@ -1727,10 +1726,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.6.2.</td>
     <td>Outros indicadores financeiros são calculados?</td>
     <td>
-        <input type="radio" name="r262" value="SIM">
+        <input type="radio" name="r262" value="SIM" required>
         </td>
     <td>
-        <input type="radio" name="r262" value="NAO">
+        <input type="radio" name="r262" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs262" value="Margem operacional">Margem operacional
@@ -1747,10 +1746,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.6.3.</td>
     <td>Mensura indicadores financeiros de projetos e investimentos futuros?</td>
     <td>
-        <input type="radio" name="r263" value="SIM">
+        <input type="radio" name="r263" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r263" value="NAO">
+        <input type="radio" name="r263" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs263" value="VPL">VPL
@@ -1780,10 +1779,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.7.1.</td>
     <td>Os animais possuem identificação individual?</td>
     <td>
-        <input type="radio" name="r271" value="SIM">
+        <input type="radio" name="r271" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r271" value="NAO">
+        <input type="radio" name="r271" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs271" value="Botton">Botton
@@ -1800,10 +1799,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.7.2.</td>
     <td>Na propriedade, existe um sistema armazenamento de dados?</td>
     <td>
-        <input type="radio" name="r272" value="SIM">
+        <input type="radio" name="r272" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r272" value="NAO">
+        <input type="radio" name="r272" value="NAO" required>
     </td>
     <td>
         <input type="radio" name="obs272" value="Manual">Manual
@@ -1817,10 +1816,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.7.3.</td>
     <td>A identificação dos animais é utilizada como uma ferramenta de manejo para a tomada de decisão?</td>
     <td>
-        <input type="radio" name="r273" value="SIM">
+        <input type="radio" name="r273" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r273" value="NAO">
+        <input type="radio" name="r273" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs273_txt' value="">
@@ -1830,10 +1829,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.7.4.</td>
     <td>Os animais são rastreados?</td>
     <td>
-        <input type="radio" name="r274" value="SIM">
+        <input type="radio" name="r274" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r274" value="NAO">
+        <input type="radio" name="r274" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs274_txt' value="">
@@ -1857,10 +1856,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.8.1.</td>
     <td>As vacas de descarte são terminadas na propriedade (vendidas para frigoríficos)?</td>
     <td>
-        <input type="radio" name="r281" value="SIM">
+        <input type="radio" name="r281" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r281" value="NAO">
+        <input type="radio" name="r281" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs281_txt' value="">
@@ -1870,10 +1869,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.8.2.  </td>
     <td>Recebe um valor adicional pelo seu produto de melhor qualidade ( valor agregado)?</td>
     <td>
-        <input type="radio" name="r282" value="SIM">
+        <input type="radio" name="r282" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r282" value="NAO">
+        <input type="radio" name="r282" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs282_txt' value="">
@@ -1884,10 +1883,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.8.3. </td>
     <td>Utiliza alguma ferramenta de gerenciamento de risco?</td>
     <td>
-        <input type="radio" name="r283" value="SIM">
+        <input type="radio" name="r283" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r283" value="NAO">
+        <input type="radio" name="r283" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs283_txt' value="">
@@ -1897,10 +1896,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.8.4.</td>
     <td>Oferta animais em feiras de terneiros ou mercado direcionado?</td>
     <td>
-        <input type="radio" name="r284" value="SIM">
+        <input type="radio" name="r284" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r284" value="NAO">
+        <input type="radio" name="r284" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs284_txt' value="">
@@ -1924,10 +1923,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.9.1.</td>
     <td>A propriedade possui computador?</td>
     <td>
-        <input type="radio" name="r291" value="SIM">
+        <input type="radio" name="r291" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r291" value="NAO">
+        <input type="radio" name="r291" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs291_txt' value="">
@@ -1937,10 +1936,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.9.2.  </td>
     <td>Utiliza algum software de gestão rural aplicado a pecuária?</td>
     <td>
-        <input type="radio" name="r292" value="SIM">
+        <input type="radio" name="r292" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r292" value="NAO">
+        <input type="radio" name="r292" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs292_txt' value="">
@@ -1951,10 +1950,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.9.3. </td>
     <td>São utilizadas planilhas de Excel ou similar para auxiliar no controle/processamento das informações?</td>
     <td>
-        <input type="radio" name="r293" value="SIM">
+        <input type="radio" name="r293" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r293" value="NAO">
+        <input type="radio" name="r293" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs293_txt' value="">
@@ -1977,10 +1976,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.10.1.</td>
     <td>Mensura a taxa de prenhez?</td>
     <td>
-        <input type="radio" name="r2101" value="SIM">
+        <input type="radio" name="r2101" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r2101" value="NAO">
+        <input type="radio" name="r2101" value="NAO" required>
     </td>
     <td>
         <div>
@@ -1992,10 +1991,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.10.2.  </td>
     <td>Mensura a taxa de natalidade?</td>
     <td>
-        <input type="radio" name="r2102" value="SIM">
+        <input type="radio" name="r2102" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r2102" value="NAO">
+        <input type="radio" name="r2102" value="NAO" required>
     </td>
     <td>
         <div>
@@ -2007,9 +2006,9 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.10.3. </td>
     <td>Mensura a taxa de desmame?</td>
     <td>
-        <input type="radio" name="r2103" value="SIM"></td>
+        <input type="radio" name="r2103" value="SIM" required></td>
     <td>
-        <input type="radio" name="r2103" value="NAO"></td>
+        <input type="radio" name="r2103" value="NAO" required></td>
     <td>
         <div>
             Qual?<input class="w3-input w3-border" type="text" name='obs2103_txt' value="">
@@ -2020,10 +2019,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.10.4.</td>
     <td>Mensura as perdas entre o toque/ nascimento/ desmame?</td>
     <td>
-        <input type="radio" name="r2104" value="SIM">
+        <input type="radio" name="r2104" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r2104" value="NAO">
+        <input type="radio" name="r2104" value="NAO" required>
     </td>
     <td>
         <div>
@@ -2035,9 +2034,9 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.10.5.  </td>
     <td>Mensura a taxa de desfrute?</td>
     <td>
-        <input type="radio" name="r2105" value="SIM"></td>
+        <input type="radio" name="r2105" value="SIM" required></td>
     <td>
-        <input type="radio" name="r2105" value="NAO"></td>
+        <input type="radio" name="r2105" value="NAO" required></td>
     <td>
         <div>
             Qual?<input class="w3-input w3-border" type="text" name='obs2105_txt' value="">
@@ -2048,10 +2047,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.10.6. </td>
     <td>Mensura a taxa de mortalidade?</td>
     <td>
-        <input type="radio" name="r2106" value="SIM">
+        <input type="radio" name="r2106" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r2106" value="NAO">
+        <input type="radio" name="r2106" value="NAO" required>
     </td>
     <td>
         <div>
@@ -2063,10 +2062,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.10.7.</td>
     <td>Há um controle de produtividade (Kg/ha)?</td>
     <td>
-        <input type="radio" name="r2107" value="SIM">
+        <input type="radio" name="r2107" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r2107" value="NAO">
+        <input type="radio" name="r2107" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs2107_txt' value="">
@@ -2076,9 +2075,9 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.10.8.</td>
     <td>Há um controle de produtividade de kg de terneiro/vaca/ano?</td>
     <td>
-        <input type="radio" name="r2108" value="SIM"></td>
+        <input type="radio" name="r2108" value="SIM" required></td>
     <td>
-        <input type="radio" name="r2108" value="NAO"></td>
+        <input type="radio" name="r2108" value="NAO" required></td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs2108_txt' value="">
     </td>
@@ -2087,10 +2086,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.10.9.</td>
     <td>Possui balança? </td>
     <td>
-        <input type="radio" name="r2109" value="SIM">
+        <input type="radio" name="r2109" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r2109" value="NAO">
+        <input type="radio" name="r2109" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs2109_txt' value="">
@@ -2100,10 +2099,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>2.10.10. </td>
     <td>A balança é utilizada com frequência como uma ferramenta de controle do desenvolvimento dos animais?</td>
     <td>
-        <input type="radio" name="r21010" value="SIM">
+        <input type="radio" name="r21010" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r21010" value="NAO">
+        <input type="radio" name="r21010" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs21010_txt' value="">
@@ -2130,10 +2129,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>3.1.1.</td>
     <td>Existe um grau de fidelidade/ confiança com seus clientes?</td>
     <td>
-        <input type="radio" name="r311" value="SIM">
+        <input type="radio" name="r311" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r311" value="NAO">
+        <input type="radio" name="r311" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs311_txt' value="">
@@ -2143,10 +2142,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>3.1.2.</td>
     <td>Existe um grau de fidelidade/confiança com empresas de insumos (lojas agropecuárias)?</td>
     <td>
-        <input type="radio" name="r312" value="SIM">
+        <input type="radio" name="r312" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r312" value="NAO">
+        <input type="radio" name="r312" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs312_txt' value="">
@@ -2156,10 +2155,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>3.1.3. </td>
     <td>Existe um suporte técnico na compra de seus insumos?</td>
     <td>
-        <input type="radio" name="r313" value="SIM">
+        <input type="radio" name="r313" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r313" value="NAO">
+        <input type="radio" name="r313" value="NAO" required>
     </td>
     <td>
         <div>Pós venda!<input class="w3-input w3-border" type="text" name='obs313_txt' value="">
@@ -2170,9 +2169,9 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>3.1.4.</td>
     <td>Existe um suporte técnico e satisfação na venda de seus produtos?</td>
     <td>
-        <input type="radio" name="r314" value="SIM"></td>
+        <input type="radio" name="r314" value="SIM" required></td>
     <td>
-        <input type="radio" name="r314" value="NAO"></td>
+        <input type="radio" name="r314" value="NAO" required></td>
     <td>
         <div>
             Pós venda!<input class="w3-input w3-border" type="text" name='obs314_txt' value="">
@@ -2193,10 +2192,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>3.2.1.</td>
     <td>Existe Universidade ou Centros de pesquisa na região da propriedade?</td>
     <td>
-        <input type="radio" name="r321" value="SIM">
+        <input type="radio" name="r321" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r321" value="NAO">
+        <input type="radio" name="r321" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs321_txt' value="">
@@ -2206,10 +2205,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>3.2.2.</td>
     <td>São geradas ações concretas de extensão rural que beneficiem o produtor?</td>
     <td>
-        <input type="radio" name="r322" value="SIM">
+        <input type="radio" name="r322" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r322" value="NAO">
+        <input type="radio" name="r322" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs322_txt' value="">
@@ -2219,10 +2218,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>3.2.3. </td>
     <td>As tecnologias difundidas/ disseminadas são utilizadas no seu sistema de produção?</td>
     <td>
-        <input type="radio" name="r323" value="SIM">
+        <input type="radio" name="r323" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r323" value="NAO">
+        <input type="radio" name="r323" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs323_txt' value="">
@@ -2239,10 +2238,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>3.3.1.</td>
     <td>Participa de alguma cooperativa/ associação/ aliança estratégica de produtores rurais?</td>
     <td>
-        <input type="radio" name="r331" value="SIM">
+        <input type="radio" name="r331" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r331" value="NAO">
+        <input type="radio" name="r331" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs331_txt' value="">
@@ -2252,10 +2251,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>3.3.2.  </td>
     <td>Existe uma organização no sentido de barganhar melhores preços na compra e venda de seus produtos e insumos?</td>
     <td>
-        <input type="radio" name="r332" value="SIM">
+        <input type="radio" name="r332" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r332" value="NAO">
+        <input type="radio" name="r332" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs332_txt' value="">
@@ -2265,10 +2264,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>3.3.3. </td>
     <td>Existe troca de informação e experiência entre os pecuaristas?</td>
     <td>
-        <input type="radio" name="r333" value="SIM">
+        <input type="radio" name="r333" value="SIM" required>
     </td>
     <td>
-        <input type="radio" name="r333" value="NAO">
+        <input type="radio" name="r333" value="NAO" required>
     </td>
     <td>
         <input class="w3-input w3-border" type="text" name='obs333_txt' value="">
