@@ -548,7 +548,7 @@ window.onload = function()
                     <td><input type="radio" name="option" value="SIM"></td>
                     <td><input type="radio" name="option" value="NÃO"></td>
                     <td>
-                    <input type="radio" name="option" value="outra"> Qual? <input type="text" name="Nome" size="10" /> <br> *A equipe calcula.
+                    Qual? <input type="text" name="Nome" size="10" /> <br> *A equipe calcula.
                     </td>
                 </tr>
 
@@ -1735,44 +1735,18 @@ window.onload = function()
                         </div>   
                     </td>
                 </tr>
-
-
-
-
-
-
-
-
-
-
-                
-                
-
-                
-
-                
-
-                
-
+    
             </table> <br><br>
 
         </div>
-        <!--FIM TABELA 2 -->
 
     </div>
-    <!--FIM DO CONTEÚDO DO ANEXO 1 -->
-
-
 
     <div>
-
-        <!--AQUI FICA AS COISAS DO ANEXO 2-->
 
     </div>
 
 </div>
-<!--ESPECIFICANDO TAMANHO MÁXIMO QUE O CONTEÚDO VAI SER DISPOSTO AO USUÁRIO (1200px máximo) -->
-
 
 </body>
 </html>
