@@ -79,34 +79,34 @@
 <!--ESPECIFICANDO TAMANHO MÁXIMO QUE O CONTEÚDO VAI SER DISPOSTO AO USUÁRIO (1200px máximo) -->
 <div class="w3-content" style="max-width:1200px;margin-top:46px">
 
-<!--------------------------------------- INICIO QUESTIONÁRIO --------------------------------------->
+<!--------------------------------------- INICIO QUESTIONÁRIO ---------------------------------------->
 
 <div class="w3-padding-64" id="ANEXO_2">
 <div>
-    <h2 class="w3-wide w3-row w3-center">ANEXO 2<br>ÍNDICE DE COMPETITIVIDADE “DENTRO DA PORTEIRA”<br>QUESTIONÁRIO PARA A MENSURAÇÃO DA COMPETITIVIDADE NA BOVINOCULTURA DE CRIA<br><br><br></h2>
+    <h2 class="w3-wide w3-row w3-center"><b>ANEXO 2</b><br><br>ÍNDICE DE COMPETITIVIDADE “DENTRO DA PORTEIRA”<br><br>QUESTIONÁRIO PARA A MENSURAÇÃO DA COMPETITIVIDADE NA BOVINOCULTURA DE CRIA<br><br><br></h2>
 </div>
 <div>
 <p class="w3-card-4 w3-red w3-center">Atenção: Este questionário é composto por perguntas dicotômicas e as mesmas têm unicamente duas respostas possíveis: "Sim" ou "Não" permitindo
 identificar claramente a opinião do entrevistado sobre a temática proposta.</p>
 </div>
 
-<!--------------------------------------- INICIO FORMULÁRIO --------------------------------------->
+<!--------------------------------------- INICIO FORMULÁRIO ---------------------------------------->
 <form action="mostra.php" method="post">
 <table  class="w3-table-all w3-border"><br><br>
 <h4 class="w3-center">Responder <b>SIM</b> ou <b>NÃO</b>.</h4>
-<!--------------------------------------- 1 Direcionador: TECNOLOGIA --------------------------------------->
+<!--------------------------------------- 1 Direcionador: TECNOLOGIA ---------------------------------------->
 <tr id="s1">
     <th>1.</th>
     <th >Direcionador: TECNOLOGIA</th>
     <th colspan="2">RESPOSTA</th>
-    <th rowspan="2">OBSERVAÇÕES</th>
+    <th rowspan="2"><center>OBSERVAÇÕES</center></th>
 </tr>
-<!--------------------------------------- 1.1 ADEQUAÇÃO DO SISTEMA DE PRODUÇÃO DE CRIA --------------------------------------->
+<!--------------------------------------- 1.1 ADEQUAÇÃO DO SISTEMA DE PRODUÇÃO DE CRIA ---------------------------------------->
 <tr>
     <td>1.1</td>
     <td><b>ADEQUAÇÃO DO SISTEMA DE PRODUÇÃO DE CRIA</b></td>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>1.1.1. </td>
@@ -129,11 +129,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <td>
         <input type="radio" name="r112" value="NAO" required></td>
     <td>
-        <input type="radio" name="obs112" value="Rastreabilidade">Rastreabilidade
-        <input type="radio" name="obs112" value="Produção de touros">Produção de touros
-        <input type="radio" name="obs112" value="Padrão racial">Padrão racial
-        <input type="radio" name="obs112" value="Outros">Outros.
-        <div>
+        <input type="radio" name="obs112" value="Rastreabilidade"> Rastreabilidade &nbsp
+        <input type="radio" name="obs112" value="Produção de touros"> Produção de touros &nbsp
+        <input type="radio" name="obs112" value="Padrão racial"> Padrão racial <br>
+        <input type="radio" name="obs112" value="Outros"> Outros.
             Qual?<input class="w3-input w3-border" type="text" name='obs112_txt' value="">
         </div>
     </td>
@@ -154,7 +153,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         </div>
     </td>
 </tr>
-<!--------------------------------------- 1.2 QUALIDADE, MANEJO E ESPÉCIES DE PASTAGENS UTILIZADAS --------------------------------------->
+<!--------------------------------------- 1.2 QUALIDADE, MANEJO E ESPÉCIES DE PASTAGENS UTILIZADAS ---------------------------------------->
 <tr><th class="w3-green" class="w3-green" colspan="5"></th></tr>
 <tr id="s1.2">
     <td rowspan="2">1.2</td>
@@ -163,8 +162,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <th rowspan="2">OBSERVAÇÕES</th>
 </tr>
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>1.2.1.</td>
@@ -190,8 +189,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r122" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs122" value="Inverno">Inverno
-        <input type="radio" name="obs122" value="Verão">Verão
+        <input type="radio" name="obs122" value="Inverno"> Inverno &nbsp&nbsp
+        <input type="radio" name="obs122" value="Verão"> Verão
     </td>
 </tr>
 
@@ -266,8 +265,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r127" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs127" value="Químico">Químico
-        <input type="radio" name="obs127" value="Físico">Físico
+        <input type="radio" name="obs127" value="Químico"> Químico
+        <input type="radio" name="obs127" value="Físico"> Físico
         <div>
             Qual?<input class="w3-input w3-border" type="text" name='obs127_txt' value="">
         </div>
@@ -327,11 +326,11 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r1211" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs1211" value="Pivot">Pivot
-        <input type="radio" name="obs1211" value="Malha">Malha
+        <input type="radio" name="obs1211" value="Pivot"> Pivot &nbsp&nbsp
+        <input type="radio" name="obs1211" value="Malha"> Malha
     </td>
 </tr>
-<!--------------------------------------- 1.3 SUPLEMENTAÇÃO ANIMAL --------------------------------------->
+<!--------------------------------------- 1.3 SUPLEMENTAÇÃO ANIMAL ---------------------------------------->
 <tr>
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -342,8 +341,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <th rowspan="2">OBSERVAÇÕES</th>
 </tr>
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b></td>
+    <td><b>NÃO</b></td>
 </tr>
 <tr>
     <td>1.3.1.</td>
@@ -382,12 +381,11 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r133" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs133" value="Feno">Feno
-        <input type="radio" name="obs133" value="Palha">Palha
-        <input type="radio" name="obs133" value="Silagem">Silagem
-        <input type="radio" name="obs133" value="Pré Secado">Pré Secado
-        <input type="radio" name="obs133" value="Outro">Outro
-        <div>
+        <input type="radio" name="obs133" value="Feno"> Feno &nbsp
+        <input type="radio" name="obs133" value="Palha"> Palha &nbsp
+        <input type="radio" name="obs133" value="Silagem"> Silagem <br>
+        <input type="radio" name="obs133" value="Pré Secado"> Pré Secado <br>
+        <input type="radio" name="obs133" value="Outro"> Outro
             Qual?<input class="w3-input w3-border" type="text" name='obs133_txt' value="">
         </div>
     </td>
@@ -402,14 +400,11 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r134" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs134" value="Creep-feeding">Creep-feeding
-        <input type="radio" name="obs134" value="Touros">Touros
-        <input type="radio" name="obs134" value="Terneiros">Terneiros
-        <input type="radio" name="obs134" value="Vacas de cria">Vacas de cria
-        <input type="radio" name="obs134" value="Teor de P (fósforo)">Teor de P (fósforo)
-        <div>
-            <input class="w3-input w3-border" type="text" name='obs134_txt' value="">
-        </div>
+        <input type="radio" name="obs134" value="Creep-feeding"> Creep-feeding &nbsp
+        <input type="radio" name="obs134" value="Touros"> Touros <br>
+        <input type="radio" name="obs134" value="Terneiros"> Terneiros <br>
+        <input type="radio" name="obs134" value="Vacas de cria"> Vacas de cria <br>
+        <input type="radio" name="obs134" value="Teor de P (fósforo)"> Teor de P (fósforo)
     </td>
 </tr>
 <tr>
@@ -466,14 +461,14 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r138" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs138" value="Maioria">Maioria
-        <input type="radio" name="obs138" value="Nenhum">Nenhum
+        <input type="radio" name="obs138" value="Maioria"> Maioria &nbsp
+        <input type="radio" name="obs138" value="Nenhum"> Nenhum
         <div>
             Qual?<input class="w3-input w3-border" type="text" name='obs138_txt' value="">
         </div>
     </td>
 </tr>
-<!--------------------------------------- 1.4 INTEGRAÇÃO LAVOURA- PECUÁRIA --------------------------------------->
+<!--------------------------------------- 1.4 INTEGRAÇÃO LAVOURA- PECUÁRIA ---------------------------------------->
 <tr id="s1.4">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -483,8 +478,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 </tr>
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>1.4.1.</td>
@@ -541,7 +536,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input class="w3-input w3-border" type="text" name='obs144_txt' value="">
     </td>
 </tr>
-<!--------------------------------------- 1.5 MANEJO DOS POTREIROS --------------------------------------->
+<!--------------------------------------- 1.5 MANEJO DOS POTREIROS ---------------------------------------->
 <tr id="s1.5">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -551,8 +546,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 </tr>
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>1.5.1.</td>
@@ -609,7 +604,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input class="w3-input w3-border" type="text" name='obs154_txt' value="">
     </td>
 </tr>
-<!--------------------------------------- 1.6 MANEJO REPRODUTIVO --------------------------------------->
+<!--------------------------------------- 1.6 MANEJO REPRODUTIVO ---------------------------------------->
 <tr id="s1.6">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -619,8 +614,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 </tr>
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>1.6.1.</td>
@@ -661,12 +656,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r163" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs163" value="Precoce">Precoce
-        <input type="radio" name="obs163" value="Interrompido/ Temporário">Interrompido/ Temporário
-        <input type="radio" name="obs163" value="Outro">Outro
-        <div>
+        <input type="radio" name="obs163" value="Precoce"> Precoce &nbsp
+        <input type="radio" name="obs163" value="Interrompido/ Temporário"> Interrompido/ Temporário <br>
+        <input type="radio" name="obs163" value="Outro"> Outro
             Qual?<input class="w3-input w3-border" type="text" name='obs163_txt' value="">
-        </div>
     </td>
 </tr>
 <tr>
@@ -722,12 +715,11 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r167" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs167" value="Transferência de embriões">Transferência de embriões
-        <input type="radio" name="obs167" value="FIV">FIV
-        <input type="radio" name="obs167" value="Outra">Outra
-        <div>
+        <input type="radio" name="obs167" value="Transferência de embriões"> Transferência de embriões &nbsp
+        <input type="radio" name="obs167" value="FIV"> FIV <br>
+        <input type="radio" name="obs167" value="Outra"> Outra
             Qual?<input class="w3-input w3-border" type="text" name='obs167_txt' value="">
-        </div>
+        
     </td>
 </tr>
 <tr>
@@ -794,10 +786,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r1612" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs1612" value="Idade">Idade
-        <input type="radio" name="obs1612" value="Hierarquia">Hierarquia
-        <input type="radio" name="obs1612" value="Raça">Raça
-        <input type="radio" name="obs1612" value="Chifres">Chifres
+        <input type="radio" name="obs1612" value="Idade"> Idade &nbsp
+        <input type="radio" name="obs1612" value="Hierarquia"> Hierarquia &nbsp
+        <input type="radio" name="obs1612" value="Raça"> Raça <br>
+        <input type="radio" name="obs1612" value="Chifres"> Chifres &nbsp
         <input class="w3-input w3-border" type="text" name='obs1612_txt' value="">
     </td>
 </tr>
@@ -846,7 +838,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         </div>
     </td>
 </tr>
-<!--------------------------------------- 1.7 GENÉTICA DO REBANHO --------------------------------------->
+<!--------------------------------------- 1.7 GENÉTICA DO REBANHO ---------------------------------------->
 <tr id="s1.7">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -856,8 +848,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 </tr>
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>1.7.1.</td>
@@ -883,14 +875,11 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     </td>
     <td>
         Qual?<br/>
-        <input type="radio" name="obs172" value="Cruzamento">Cruzamento
-        <input type="radio" name="obs172" value="Seleção">Seleção
-        <input type="radio" name="obs172" value="DEP’s">DEP’s
-        <input type="radio" name="obs172" value="Molecular">Molecular
-        <input type="radio" name="obs172" value="Sumário de touros">Sumário de touros
-        <div>
-            <input class="w3-input w3-border" type="text" name='obs172_txt' value="">
-        </div>
+        <input type="radio" name="obs172" value="Cruzamento"> Cruzamento &nbsp
+        <input type="radio" name="obs172" value="Seleção"> Seleção &nbsp
+        <input type="radio" name="obs172" value="DEP’s"> DEP’s <br>
+        <input type="radio" name="obs172" value="Molecular"> Molecular &nbsp
+        <input type="radio" name="obs172" value="Sumário de touros"> Sumário de touros
     </td>
 </tr>
 
@@ -907,7 +896,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input class="w3-input w3-border" type="text" name='obs173_txt' value="">
     </td>
 </tr>
-<!--------------------------------------- 1.8 SANIDADE DO REBANHO --------------------------------------->
+<!--------------------------------------- 1.8 SANIDADE DO REBANHO ---------------------------------------->
 <tr id="s1.8">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -918,8 +907,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 </tr>
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>1.8.1.</td>
@@ -958,14 +947,12 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r183" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs183" value="Clostridiose">Clostridiose
-        <input type="radio" name="obs183" value="Raiva">Raiva
-        <input type="radio" name="obs183" value="Brucelose">Brucelose
-        <input type="radio" name="obs183" value="Aftosa">Aftosa
-        <input type="radio" name="obs183" value="Outro">Outro
-        <div>
-            Qual?<input class="w3-input w3-border" type="text" name='obs183_txt' value="">
-        </div>
+        <input type="radio" name="obs183" value="Clostridiose"> Clostridiose &nbsp&nbsp
+        <input type="radio" name="obs183" value="Raiva"> Raiva &nbsp&nbsp
+        <input type="radio" name="obs183" value="Aftosa"> Aftosa <br>
+        <input type="radio" name="obs183" value="Aftosa"> Brucelose &nbsp&nbsp
+        <input type="radio" name="obs183" value="Outro"> Outras. Qual?<input class="w3-input w3-border" type="text" name='obs183_txt' value="">
+  
     </td>
 </tr>
 <tr>
@@ -978,14 +965,11 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r184" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs184" value="IBR">IBR
-        <input type="radio" name="obs184" value="BVD">BVD
-        <input type="radio" name="obs184" value="Leptospirose">Leptospirose
-        <input type="radio" name="obs184" value="Campilobacteriose">Campilobacteriose
-        <input type="radio" name="obs184" value="Outro">Outro
-        <div>
-            Qual?<input class="w3-input w3-border" type="text" name='obs184_txt' value="">
-        </div>
+        <input type="radio" name="obs184" value="IBR"> IBR &nbsp&nbsp
+        <input type="radio" name="obs184" value="BVD"> BVD &nbsp&nbsp
+        <input type="radio" name="obs184" value="Leptospirose"> Leptospirose <br>
+        <input type="radio" name="obs184" value="Campilobacteriose"> Campilobacteriose
+        <input type="radio" name="obs184" value="Outro"> Outra. Qual?<input class="w3-input w3-border" type="text" name='obs184_txt' value="">
     </td>
 </tr>
 <tr>
@@ -1024,12 +1008,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r187" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs187" value="Injetável">Injetável
-        <input type="radio" name="obs187" value="Tópica">Tópica
-        <input type="radio" name="obs187" value="Outra">Outra
-        <div>
-            Qual?<input class="w3-input w3-border" type="text" name='obs187_txt' value="">
-        </div>
+        <input type="radio" name="obs187" value="Injetável"> Injetável &nbsp&nbsp&nbsp
+        <input type="radio" name="obs187" value="Tópica"> Tópica <br>
+        <input type="radio" name="obs187" value="Outra"> Outra. Qual?<input class="w3-input w3-border" type="text" name='obs187_txt' value="">
+      
     </td>
 </tr>
 <tr>
@@ -1042,14 +1024,14 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r188" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs188" value="Sorologia">Sorologia
-        <input type="radio" name="obs188" value="Necrópsia">Necrópsia
-        <input type="radio" name="obs188" value="Outra">Outra
+        <input type="radio" name="obs188" value="Sorologia"> Sorologia &nbsp
+        <input type="radio" name="obs188" value="Necrópsia"> Necrópsia &nbsp
+        <input type="radio" name="obs188" value="Outra"> Outra
         <div>
             Qual?<input class="w3-input w3-border" type="text" name='obs188_txt' value="">
         </div></td>
 </tr>
-<!--------------------------------------- 1.9 ASSESSORIA TÉCNICA --------------------------------------->
+<!--------------------------------------- 1.9 ASSESSORIA TÉCNICA ---------------------------------------->
 <tr id="s1.9">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -1059,8 +1041,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 </tr>
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b></td>
 </tr>
 <tr>
     <td>1.9.1.</td>
@@ -1072,13 +1054,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r191" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs191" value="Veterinário">Veterinário
-        <input type="radio" name="obs191" value="Zootecnista">Zootecnista
-        <input type="radio" name="obs191" value="Agrônomo">Agrônomo
-        <input type="radio" name="obs191" value="Outro">Outro
-        <div>
-            Qual?<input class="w3-input w3-border" type="text" name='obs191_txt' value="">
-        </div>
+        <input type="radio" name="obs191" value="Veterinário"> Veterinário &nbsp&nbsp
+        <input type="radio" name="obs191" value="Zootecnista"> Zootecnista &nbsp&nbsp
+        <input type="radio" name="obs191" value="Agrônomo"> Agrônomo <br>
+        <input type="radio" name="obs191" value="Outro"> Outro. Qual?<input class="w3-input w3-border" type="text" name='obs191_txt' value="">
     </td>
 </tr>
 <tr>
@@ -1091,13 +1070,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r192" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs192" value="EMATER">EMATER
-        <input type="radio" name="obs192" value="Universidade">Universidade
-        <input type="radio" name="obs192" value="Consultoria">Consultoria
-        <input type="radio" name="obs192" value="Outro">Outro
-        <div>
-            Qual?<input class="w3-input w3-border" type="text" name='obs192_txt' value="">
-        </div>
+        <input type="radio" name="obs192" value="EMATER"> EMATER &nbsp
+        <input type="radio" name="obs192" value="Universidade"> Universidade <br>
+        <input type="radio" name="obs192" value="Consultoria"> Consultoria <br>
+        <input type="radio" name="obs192" value="Outro"> Outra. Qual?<input class="w3-input w3-border" type="text" name='obs192_txt' value="">
     </td>
 </tr>
 
@@ -1111,19 +1087,16 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r193" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs193" value="Toque">Toque
-        <input type="radio" name="obs193" value="Andrológico">Andrológico
-        <input type="radio" name="obs193" value="Pastagens">Pastagens
-        <input type="radio" name="obs193" value="IATF">IATF
-        <input type="radio" name="obs193" value="Clínica">Clínica
-        <input type="radio" name="obs193" value="Cirúrgica">Cirúrgica
-        <input type="radio" name="obs193" value="Outro">Outro
-        <div>
-            Qual?<input class="w3-input w3-border" type="text" name='obs193_txt' value="">
-        </div>
+        <input type="radio" name="obs193" value="Toque"> Toque &nbsp
+        <input type="radio" name="obs193" value="Andrológico"> Andrológico <br>
+        <input type="radio" name="obs193" value="Pastagens"> Pastagens <br>
+        <input type="radio" name="obs193" value="IATF"> IATF &nbsp
+        <input type="radio" name="obs193" value="Clínica"> Clínica &nbsp
+        <input type="radio" name="obs193" value="Cirúrgica"> Cirúrgica <br>
+        <input type="radio" name="obs193" value="Outro"> Outro. Qual?<input class="w3-input w3-border" type="text" name='obs193_txt' value="">
     </td>
 </tr>
-<!--------------------------------------- 1.10 BEM ESTAR ANIMAL E MANEJO COM OS ANIMAIS --------------------------------------->
+<!--------------------------------------- 1.10 BEM ESTAR ANIMAL E MANEJO COM OS ANIMAIS ---------------------------------------->
 <tr id="s1.10">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -1133,8 +1106,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 </tr>
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>1.10.1.</td>
@@ -1257,7 +1230,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     </td>
 </tr>
 
-<!--------------------------------------- 2 Direcionador: GESTÃO --------------------------------------->
+<!--------------------------------------- 2 Direcionador: GESTÃO ---------------------------------------->
 <tr id="s2">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -1267,12 +1240,12 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <th colspan="2">RESPOSTA</th>
     <th rowspan="2">OBSERVAÇÕES</th>
 </tr>
-<!--------------------------------------- 2.1 RECURSOS HUMANOS --------------------------------------->
+<!--------------------------------------- 2.1 RECURSOS HUMANOS ---------------------------------------->
 <tr>
     <td>2.1</td>
     <td><b>RECURSOS HUMANOS</b></td>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 
 <tr>
@@ -1298,11 +1271,11 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r212" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs212" value="Perfil">Perfil
-        <input type="radio" name="obs212" value="Tempo de empresa">Tempo de empresa
-        <input type="radio" name="obs212" value="Indicação">Indicação
-        <input type="radio" name="obs212" value="IATF">IATF
-        <input type="radio" name="obs212" value="Outro">Outro
+        <input type="radio" name="obs212" value="Perfil"> Perfil &nbsp
+        <input type="radio" name="obs212" value="Tempo de empresa"> Tempo de empresa <br>
+        <input type="radio" name="obs212" value="Indicação"> Indicação <br>
+        <input type="radio" name="obs212" value="IATF"> IATF
+        <input type="radio" name="obs212" value="Outro"> Outro
         <div>
             Qual?<input class="w3-input w3-border" type="text" name='r212_txt' value="">
         </div>
@@ -1319,10 +1292,10 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r213" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs213" value="PL">PL
-        <input type="radio" name="obs213" value="Gratificações">Gratificações
-        <input type="radio" name="obs213" value="Doação de animais">Doação de animais
-        <input type="radio" name="obs213" value="Outro, qual?"Outro
+        <input type="radio" name="obs213" value="PL"> PL &nbsp&nbsp
+        <input type="radio" name="obs213" value="Gratificações"> Gratificações <br>
+        <input type="radio" name="obs213" value="Doação de animais"> Doação de animais <br>
+        <input type="radio" name="obs213" value="Outro, qual?"> Outro
         <div>Qual?<input class="w3-input w3-border" type="text" name='obs213_txt' value="">
         </div>
     </td>
@@ -1363,13 +1336,13 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r216" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs216" value="Escola">Escola
-        <input type="radio" name="obs216" value="Televisão">Televisão
-        <input type="radio" name="obs216" value="Quadra de esportes">Quadra de esportes
-        <input type="radio" name="obs216" value="Internet">Internet
-        <input type="radio" name="obs216" value="Plano de saúde">Plano de saúde
-        <input type="radio" name="obs216" value="Festa de confraternização">Festa de confraternização
-        <input type="radio" name="obs216" value="Outros">Outros
+        <input type="radio" name="obs216" value="Escola"> Escola &nbsp&nbsp
+        <input type="radio" name="obs216" value="Televisão"> Televisão <br>
+        <input type="radio" name="obs216" value="Quadra de esportes"> Quadra de esportes <br>
+        <input type="radio" name="obs216" value="Internet"> Internet &nbsp&nbsp
+        <input type="radio" name="obs216" value="Plano de saúde"> Plano de saúde <br>
+        <input type="radio" name="obs216" value="Festa de confraternização"> Festa de confraternização <br>
+        <input type="radio" name="obs216" value="Outros"> Outros
         <div>
             Qual?<input class="w3-input w3-border" type="text" name='obs216_txt' value="">
         </div>
@@ -1414,7 +1387,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input class="w3-input w3-border" type="text" name='obs219_txt' value="">
     </td>
 </tr>
-<!--------------------------------------- 2.2 PATRIMÔNIO --------------------------------------->
+<!--------------------------------------- 2.2 PATRIMÔNIO ---------------------------------------->
 <tr id="s2.2">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -1424,8 +1397,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 </tr>
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>2.2.1.</td>
@@ -1437,11 +1410,11 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r221" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs221" value="Mensal">Mensal
-        <input type="radio" name="obs221" value="Semestral">Semestral
-        <input type="radio" name="obs221" value="Anual">Anual
-        <input type="radio" name="obs221" value="IATF">IATF
-        <input type="radio" name="obs221" value="Outro">Outro
+        <input type="radio" name="obs221" value="Mensal"> Mensal &nbsp&nbsp
+        <input type="radio" name="obs221" value="Semestral"> Semestral &nbsp&nbsp
+        <input type="radio" name="obs221" value="Anual"> Anual <br>
+        <input type="radio" name="obs221" value="IATF"> IATF <br>
+        <input type="radio" name="obs221" value="Outro"> Outro
         <div>
             Qual?<input type="text" name='obs221_txt' id="obs33" value="">
         </div>
@@ -1487,7 +1460,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input class="w3-input w3-border" type="text" name='obs224_txt' value="">
     </td>
 </tr>
-<!--------------------------------------- 2.3 ORÇAMENTO E FLUXO DE CAIXA --------------------------------------->
+<!--------------------------------------- 2.3 ORÇAMENTO E FLUXO DE CAIXA ---------------------------------------->
 <tr id="s2.3">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -1497,8 +1470,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b></td>
 </tr>
 <tr>
     <td>2.3.1.</td>
@@ -1553,7 +1526,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input class="w3-input w3-border" type="text" name='obs234_txt' value="">
     </td>
 </tr>
-<!--------------------------------------- 2.4 PLANEJAMENTO ESTRATÉGICO --------------------------------------->
+<!--------------------------------------- 2.4 PLANEJAMENTO ESTRATÉGICO ---------------------------------------->
 <tr id="s2.4">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -1563,8 +1536,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>2.4.1.</td>
@@ -1592,7 +1565,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input class="w3-input w3-border" type="text" name='obs242_txt' value="">
     </td>
 </tr>
-<!--------------------------------------- 2.5 CONTROLE DE CUSTOS DE PRODUÇÃO --------------------------------------->
+<!--------------------------------------- 2.5 CONTROLE DE CUSTOS DE PRODUÇÃO ---------------------------------------->
 <tr id="s2.5">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -1601,8 +1574,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th colspan="2">RESPOSTA</th>
 <th rowspan="2">OBSERVAÇÕES</th>
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>2.5.1.</td>
@@ -1697,7 +1670,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input class="w3-input w3-border" type="text" name='obs257_txt' value="">
     </td>
 </tr>
-<!--------------------------------------- 2.6 CÁLCULO DE INDICADORES FINANCEIROS --------------------------------------->
+<!--------------------------------------- 2.6 CÁLCULO DE INDICADORES FINANCEIROS ---------------------------------------->
 <tr id="s2.6">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -1706,8 +1679,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th colspan="2">RESPOSTA</th>
 <th rowspan="2">OBSERVAÇÕES</th>
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>2.6.1.</td>
@@ -1732,11 +1705,11 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r262" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs262" value="Margem operacional">Margem operacional
-        <input type="radio" name="obs262" value="Margem líquida">Margem líquida
-        <input type="radio" name="obs262" value="Rentabilidade">Rentabilidade
-        <input type="radio" name="obs262" value="Lucratividade">Lucratividade
-        <input type="radio" name="obs262" value="Outro">Outro
+        <input type="radio" name="obs262" value="Margem operacional"> Margem operacional <br>
+        <input type="radio" name="obs262" value="Margem líquida"> Margem líquida <br>
+        <input type="radio" name="obs262" value="Rentabilidade"> Rentabilidade &nbsp&nbsp
+        <input type="radio" name="obs262" value="Lucratividade"> Lucratividade <br>
+        <input type="radio" name="obs262" value="Outro"> Outro
         <div>
             Qual?<input class="w3-input w3-border" type="text" name='obs262_txt' value="">
         </div>
@@ -1752,17 +1725,17 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r263" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs263" value="VPL">VPL
-        <input type="radio" name="obs263" value="payback">payback
-        <input type="radio" name="obs263" value="TIR">TIR
-        <input type="radio" name="obs263" value="Custo/Benefício">Custo/Benefício
+        <input type="radio" name="obs263" value="VPL"> VPL &nbsp&nbsp
+        <input type="radio" name="obs263" value="payback"> payback <br>
+        <input type="radio" name="obs263" value="TIR"> TIR &nbsp&nbsp
+        <input type="radio" name="obs263" value="Custo/Benefício"> Custo/Benefício &nbsp&nbsp
         <div>
             <input class="w3-input w3-border" type="text" name='obs263_txt' value="">
         </div>
     </td>
 </tr>
 
-<!--------------------------------------- 2.7 IDENTIFICAÇÃO E GESTÃO DO REBANHO --------------------------------------->
+<!--------------------------------------- 2.7 IDENTIFICAÇÃO E GESTÃO DO REBANHO ---------------------------------------->
 <tr id="s2.7">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -1772,8 +1745,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 </tr>
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>2.7.1.</td>
@@ -1785,11 +1758,11 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r271" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs271" value="Botton">Botton
-        <input type="radio" name="obs271" value="Brinco">Brinco
-        <input type="radio" name="obs271" value="Tatuagem">Tatuagem
-        <input type="radio" name="obs271" value="Marca de fogo com número">Marca de fogo com número
-        <input type="radio" name="obs271" value="Outro">Outro
+        <input type="radio" name="obs271" value="Botton"> Botton &nbsp&nbsp
+        <input type="radio" name="obs271" value="Brinco"> Brinco &nbsp&nbsp
+        <input type="radio" name="obs271" value="Tatuagem">Tatuagem <br>
+        <input type="radio" name="obs271" value="Marca de fogo com número"> Marca de fogo com número <br>
+        <input type="radio" name="obs271" value="Outro"> Outro
         <div>
             Qual?<input class="w3-input w3-border" type="text" name='obs271_txt' value="">
         </div>
@@ -1805,8 +1778,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input type="radio" name="r272" value="NAO" required>
     </td>
     <td>
-        <input type="radio" name="obs272" value="Manual">Manual
-        <input type="radio" name="obs272" value="Informatizado">Informatizado
+        <input type="radio" name="obs272" value="Manual"> Manual &nbsp&nbsp
+        <input type="radio" name="obs272" value="Informatizado"> Informatizado &nbsp&nbsp
         <div>
             <input class="w3-input w3-border" type="text" name='obs272_txt' value="">
         </div>
@@ -1839,7 +1812,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     </td>
 </tr>
 
-<!--------------------------------------- 2.8 COMERCIALIZAÇÃO --------------------------------------->
+<!--------------------------------------- 2.8 COMERCIALIZAÇÃO ---------------------------------------->
 <tr id="s2.8">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -1849,8 +1822,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>2.8.1.</td>
@@ -1906,7 +1879,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     </td>
 </tr>
 
-<!--------------------------------------- 2.9 INFORMATIZAÇÃO DA PROPRIEDADE --------------------------------------->
+<!--------------------------------------- 2.9 INFORMATIZAÇÃO DA PROPRIEDADE ---------------------------------------->
 <tr id="s2.9">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -1916,8 +1889,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>2.9.1.</td>
@@ -1959,7 +1932,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input class="w3-input w3-border" type="text" name='obs293_txt' value="">
     </td>
 </tr>
-<!--------------------------------------- 2.10 CONTROLE ZOOTÉCNICO --------------------------------------->
+<!--------------------------------------- 2.10 CONTROLE ZOOTÉCNICO ---------------------------------------->
 <tr id="s2.10">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -1969,8 +1942,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <th rowspan="2">OBSERVAÇÕES</th>
 
 <tr>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>2.10.1.</td>
@@ -2108,7 +2081,7 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         <input class="w3-input w3-border" type="text" name='obs21010_txt' value="">
     </td>
 </tr>
-<!--------------------------------------- 3 RELAÇÕES DE MERCADO E AMBIENTE EXTERNO --------------------------------------->
+<!--------------------------------------- 3 RELAÇÕES DE MERCADO E AMBIENTE EXTERNO ---------------------------------------->
 <tr id="s3">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
@@ -2118,12 +2091,12 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <th colspan="2">RESPOSTA</th>
     <th rowspan="2">OBSERVAÇÕES</th>
 </tr>
-<!--------------------------------------- 3.1 RELAÇÃO FORNECEDOR/ PECUARISTA/ COMPRADOR --------------------------------------->
+<!--------------------------------------- 3.1 RELAÇÃO FORNECEDOR/ PECUARISTA/ COMPRADOR ---------------------------------------->
 <tr>
     <td>3.1</td>
     <td>RELAÇÃO FORNECEDOR/ PECUARISTA/ COMPRADOR</td>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>3.1.1.</td>
@@ -2178,15 +2151,15 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
         </div>
     </td>
 </tr>
-<!--------------------------------------- 3.2 ACESSO A INOVAÇÕES TECNOLÓGICAS --------------------------------------->
+<!--------------------------------------- 3.2 ACESSO A INOVAÇÕES TECNOLÓGICAS ---------------------------------------->
 <tr id="s3.2">
     <th class="w3-green" class="w3-green" colspan="5"></th>
 </tr>
 <tr>
     <td>3.2</td>
     <td><b>ACESSO A INOVAÇÕES TECNOLÓGICAS</b></td>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>3.2.1.</td>
@@ -2231,8 +2204,8 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
 <tr>
     <td>3.3</td>
     <td><b>ORGANIZAÇÃO DOS PRODUTORES</b></td>
-    <td>SIM </td>
-    <td>NÃO</td>
+    <td><b>SIM</b> </td>
+    <td><b>NÃO</b> </td>
 </tr>
 <tr>
     <td>3.3.1.</td>
@@ -2281,9 +2254,9 @@ identificar claramente a opinião do entrevistado sobre a temática proposta.</p
     <input class="w3-xlarge w3-center" type=submit value="Salvar dados">
 </div>
 </form>
-<!--------------------------------------- FIM FORMULÁRIO --------------------------------------->
+<!--------------------------------------- FIM FORMULÁRIO ---------------------------------------->
 </div>
-<!--------------------------------------- FIM QUESTIONÁRIO --------------------------------------->
+<!--------------------------------------- FIM QUESTIONÁRIO ---------------------------------------->
 <br><br><br><br>
 
 </div>

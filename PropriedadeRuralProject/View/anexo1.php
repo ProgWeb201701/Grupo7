@@ -89,7 +89,7 @@
 
 <!--COMEÇO DO CONTEÚDO DO ANEXO 1 -->
 <div class="w3-padding-64" id="ANEXO_1">
-<h2 class="w3-wide w3-row w3-center">ANEXO 1<br>ÍNDICE DE COMPETITIVIDADE “DENTRO DA PORTEIRA”<br>CARACTERIZAÇÃO DO SISTEMA DE PRODUÇÃO<br><br><br></h2>
+<h2 class="w3-wide w3-row w3-center"><b>ANEXO 1</b><br><br>ÍNDICE DE COMPETITIVIDADE “DENTRO DA PORTEIRA”<br><br> <u>CARACTERIZAÇÃO DO SISTEMA DE PRODUÇÃO</u><br><br><br></h2>
 
 <!--------------------------------------- INICIO FORMULÁRIO --------------------------------------->
 <form action="anexo2.php" method="post">
@@ -164,11 +164,11 @@
     <h3 class="w3-center">Tabela 2: Tipo de propriedade.</h3>
     <table class="w3-table-all">
         <tr>
-            <th>Tipo</th>
-            <th>Módulo Fiscal</th>
-            <th>Área (hectares)</th>
-            <th>Observação</th>
-            <th>Área Total Exata (ha)</th>
+            <th><center>Tipo</center></th>
+            <th><center>Módulo Fiscal</center></th>
+            <th><center>Área (hectares)</center></th>
+            <th><center>Observação</center></th>
+            <th><center>Área Total Exata (ha)</center></th>
         </tr>
         <tr>
             <td><input type="radio" name="tipo" value="mini"> Minifúndio <br></td>
@@ -233,9 +233,9 @@
     <h3 class="w3-center">Tabela 3: Atividades desenvolvidas.</h3>
     <table class="w3-table-all">
         <tr>
-            <th>3.1. Tipo</th>
-            <th>3.2. Área útil (hectares)</th>
-            <th>3.3. Obs.</th>
+            <th><center>3.1. Tipo</center></th>
+            <th><center>3.2. Área útil (hectares)</center></th>
+            <th><center>3.3. Obs.</center></th>
         </tr>
         <tr>
             <td>
@@ -373,48 +373,44 @@
     <h3 class="w3-center">Tabela 4: Perfil do empresário rural.</h3>
     <table class="w3-table-all">
         <tr>
-            <th>4.1. Escolaridade</th>
-            <th>4.2. Atividade Principal</th>
+            <th><center>4.1. Escolaridade</center></th>
+            <th><center>4.2. Atividade Principal</center></th>
         </tr>
         <tr>
             <td>
-                <input type="radio" name="escolaridade" value="Não alfabetizado">Não alfabetizado
-            </td>
+                <input type="radio" name="escolaridade" value="Não alfabetizado">  Não alfabetizado</td>
             <td>
-                <input type="radio" name="atividade" value="Aposentado">Aposentado
-            </td>
+                <input type="radio" name="atividade" value="Aposentado"> Aposentado</td>
         </tr>
         <tr>
             <td>
-                <input type="radio" name="escolaridade" value="Fundamental">Fundamental
-            </td>
+                <input type="radio" name="escolaridade" value="Fundamental"> Fundamental</td>
             <td>
-                <input type="radio" name="atividade" value="Profissional Liberal">Profissional Liberal
-            </td>
+                <input type="radio" name="atividade" value="Profissional Liberal"> Profissional Liberal</td>
         </tr>
         <tr>
             <td>
-                <input type="radio" name="escolaridade" value="Médio">Médio</td>
+                <input type="radio" name="escolaridade" value="Médio"> Médio</td>
             <td>
                 <input type="radio" name="atividade" value="Funcionário Público"> Funcionário Público</td>
         </tr>
         <tr>
-            <td> <input type="radio" name="escolaridade" value="Graduação">Graduação</td>
-            <td> <input type="radio" name="atividade" value="Empresário do setor privado">Empresário do setor privado</td>
+            <td> <input type="radio" name="escolaridade" value="Graduação"> Graduação</td>
+            <td> <input type="radio" name="atividade" value="Empresário do setor privado"> Empresário do setor privado</td>
         </tr>
         <tr>
-            <td> <input type="radio" name="escolaridade" value="Pós-Graduação">Pós-Graduação</td>
-            <td> <input type="radio" name="atividade" value="Produtor Rural">Produtor Rural</td>
+            <td> <input type="radio" name="escolaridade" value="Pós-Graduação"> Pós-Graduação</td>
+            <td> <input type="radio" name="atividade" value="Produtor Rural"> Produtor Rural</td>
         </tr>
         <tr>
             <td>
                 <div class="w3-input w3-border">
-                    Obs: <input type="text" name='obsEscolaridade' class="w3-input w3-border"value="">
+                    Obs.: <input type="text" name='obsEscolaridade' class="w3-input w3-border"value="">
                 </div>
             </td>
             <td>
                 <div class="w3-input w3-border">
-                    Obs: <input type="text" name='obsAtividade' class="w3-input w3-border"value="">
+                    Obs.: <input type="text" name='obsAtividade' class="w3-input w3-border"value="">
                 </div>
             </td>
     </table>
@@ -428,16 +424,16 @@
     <h3 class="w3-center">Tabela 5: Padrão racial predominante do rebanho</h3>
     <table class="w3-table-all">
         <tr>
-            <th>5.1. Grupo racial</th>
+            <th><center>5.1. Grupo racial</center></th>
         </tr>
         <tr>
             <td>
-                <input type="radio" name="racial" value="BB (Angus, Devon e Hereford)">BB (Angus, Devon e Hereford)
+                <input type="radio" name="racial" value="BB (Angus, Devon e Hereford)"> BB (Angus, Devon e Hereford)
             </td>
         </tr>
         <tr>
             <td>
-                <input type="radio" name="racial" value="CC (Charolês, Limousin e Simental)">CC (Charolês, Limousin e Simental)
+                <input type="radio" name="racial" value="CC (Charolês, Limousin e Simental)"> CC (Charolês, Limousin e Simental)
             </td>
         </tr>
         <tr>
@@ -468,12 +464,12 @@
 
 <table class="w3-table-all">
 <tr>
-    <th>Categoria</th>
-    <th>Nº de animais*</th>
-    <th>%</th>
-    <th>UA</th>
-    <th>%UA</th>
-    <th>Peso Médio</th>
+    <th><center>Categoria</center></th>
+    <th><center>Nº de animais*</center></th>
+    <th><center>%</center></th>
+    <th><center>UA</center></th>
+    <th><center>%UA</center></th>
+    <th><center>Peso Médio</center></th>
 </tr>
 <tr>
     <td>Terneiros<br></td>
@@ -868,7 +864,7 @@
     </td>
 </tr>
 </table>
-<br><h6>* Referente a última declaração do rebanho (mar/abr).</h6><br>
+<h6><i>* Referente a última declaração do rebanho (mar/abr).</i></h6><br>
 </div>
 <br><br>
 <!--FIM TABELA 6-->
@@ -879,9 +875,9 @@
     <h3 class="w3-center">Tabela 7: Número de colaboradores fixos na propriedade</h3>
     <table class="w3-table-all">
         <tr>
-            <th>Categoria</th>
-            <th>Número</th>
-            <th>Observação </th>
+            <th><center>Categoria</center></th>
+            <th><center>Número</center></th>
+            <th><center>Observação</center></th>
         </tr>
         <tr>
             <td>Peão<br></td>
