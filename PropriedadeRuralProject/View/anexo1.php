@@ -124,7 +124,7 @@
         </div>
         <div class="w3-row w3-section">
             <div class="w3-col" style="width:250px">
-                <label class="w3-left">E-mail:</label>
+                <label class="w3-left">E-mail:</label> 
             </div>
             <div class="w3-rest">
                 <input class="w3-input w3-border" type="text" name='email' placeholder="E-mail" value="">
@@ -254,7 +254,7 @@
         </tr>
         <tr>
             <td>
-                <input type="checkbox" name="tipo[]" value="Bovinocultura de Leite">Bovinocultura de Leite
+                <input type="checkbox" name="tipo[]" value="Bovinocultura de Leite"> Bovinocultura de Leite
             </td>
             <td>
                 <div class="w3-input w3-border">
@@ -269,7 +269,7 @@
         </tr>
         <tr>
             <td>
-                <input type="checkbox" name="tipo[]" value="Ovinocultura">Ovinocultura
+                <input type="checkbox" name="tipo[]" value="Ovinocultura"> Ovinocultura
             </td>
             <td>
                 <div class="w3-input w3-border">
@@ -283,7 +283,7 @@
             </td>
         </tr>
         <tr>
-            <td> <input type="checkbox" name="tipo[]" value="Equinos">Equinos<br></td>
+            <td> <input type="checkbox" name="tipo[]" value="Equinos"> Equinos<br></td>
             <td>
                 <div class="w3-input w3-border">
                     <input type="text" name='areaEquinos' class="w3-input w3-border" value="">
@@ -296,7 +296,7 @@
             </td>
         </tr>
         <tr>
-            <td> <input type="checkbox" name="tipo[]" value="Pesca e Aqüicultura">Pesca e Aqüicultura<br></td>
+            <td> <input type="checkbox" name="tipo[]" value="Pesca e Aqüicultura"> Pesca e Aqüicultura<br></td>
             <td>
                 <div class="w3-input w3-border">
                     <input type="text" name='areaPesca' class="w3-input w3-border" value="">
@@ -309,7 +309,7 @@
             </td>
         </tr>
         <tr>
-            <td> <input type="checkbox" name="tipo[]" value="Agricultura">Agricultura<br></td>
+            <td> <input type="checkbox" name="tipo[]" value="Agricultura"> Agricultura<br></td>
             <td>
                 <div class="w3-input w3-border">
                     <input type="text" name='areaAgricultura' class="w3-input w3-border" value="">
@@ -322,7 +322,7 @@
             </td>
         </tr>
         <tr>
-            <td> <input type="checkbox" name="tipo[]" value="Florestamento">Florestamento<br></td>
+            <td> <input type="checkbox" name="tipo[]" value="Florestamento"> Florestamento<br></td>
             <td>
                 <div class="w3-input w3-border">
                     <input type="text" name='areaFloresta' class="w3-input w3-border" value="">
@@ -335,7 +335,7 @@
             </td>
         </tr>
         <tr>
-            <td> <input type="checkbox" name="tipo[]" value="Hortifrutigranjeiros">Hortifrutigranjeiros<br></td>
+            <td> <input type="checkbox" name="tipo[]" value="Hortifrutigranjeiros"> Hortifrutigranjeiros<br></td>
             <td>
                 <div class="w3-input w3-border">
                     <input type="text" name='areaHortifruti' class="w3-input w3-border" value="">
@@ -349,7 +349,7 @@
         </tr>
         <tr>
             <td>
-                <input type="checkbox" name="tipo[]" value="Outras Criações Zootécnicas">Outras Criações Zootécnicas
+                <input type="checkbox" name="tipo[]" value="Outras Criações Zootécnicas"> Outras Criações Zootécnicas
             </td>
             <td>
                 <div class="w3-input w3-border">
@@ -378,7 +378,7 @@
         </tr>
         <tr>
             <td>
-                <input type="radio" name="escolaridade" value="Não alfabetizado">  Não alfabetizado</td>
+                <input type="radio" name="escolaridade" value="Não alfabetizado"> Não alfabetizado</td>
             <td>
                 <input type="radio" name="atividade" value="Aposentado"> Aposentado</td>
         </tr>
