@@ -22,22 +22,19 @@
 </head>
 
 <body>
-<div class="w3-content w3-center w3-card-4 w3-black">
-    <p>SISTEMA PROGWEB TESTE</p>
+<div class="w3-content w3-center w3-card-4 w3-green">
+    <h1 class="w3-center w3-wide">ÍNDICE DE COMPETITIVIDADE</br>“DENTRO DA PORTEIRA”</h1>
     <br/>
     <a href="../Controller/logout.php" class="w3-padding-large w3-hover-red w3-hide-small w3-right">Sair</i></a>
-    <p class="w3-red">
+    <p class="w3-blue">
         <?php
-        echo" Bem vindo $logado";
+        echo"Logado como $logado";
         ?>
     </p>
 </div>
 <div class="w3-center">
-    <br/><br/><br/>
-    <a class="w3-btn" href="anexo1.php"><button>ANEXO 1</button></a>
-    <br/><br/><br/>
-    <a class="w3-btn" href="anexo2.php"><button>ANEXO 2</button></a>
-    <br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/>
+    <a class="w3-btn w3-large" href="anexo1.php"><button>Iniciar Questionário para Avaliacao de Propriedade Rural</button></a>
 </div>
 
 

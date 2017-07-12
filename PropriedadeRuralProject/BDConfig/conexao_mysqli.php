@@ -49,6 +49,17 @@ class conexao_mysqli {
         }
     }
 
+    function retornaUltimoID(){
+        if ($this->result = mysqli_query($this->conex, "SELECT max(_ID) from propriedaderural")) {
+            $this->desconectar();
+            return $this->result;
+        } else {
+            echo "<br/>Ocorreu um erro na execução da SQL";
+            echo "<br/>Erro : " . mysqli_error($this->conex);
+            die();
+        }
+    }
+
     /**
      * Método que fecha conexão com o banco de dados
      */
